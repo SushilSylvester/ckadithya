@@ -57,7 +57,7 @@
                         <div class="tabs">
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="Amenities-tab" data-toggle="tab" href="#Amenities " role="tab" aria-controls="Amenities" aria-selected="true">Amenities</a>
+                                    <a class="nav-link " id="Amenities-tab" data-toggle="tab" href="#Amenities " role="tab" aria-controls="Amenities" aria-selected="false">Amenities</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="Club-house-tab" data-toggle="tab" href="#Club-house" role="tab" aria-controls="Club-house" aria-selected="false">Club-house</a>
@@ -76,7 +76,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="Amenities" role="tabpanel" aria-labelledby="Amenities-tab">
+                                <div class="tab-pane fade" id="Amenities" role="tabpanel" aria-labelledby="Amenities-tab">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <h4>Key Highlights</h4>
@@ -176,7 +176,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--club-->
                                 <div class="tab-pane fade" id="Club-house" role="tabpanel" aria-labelledby="Club-house-tab">
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -420,6 +419,21 @@
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/functions.js"></script>
+
+    <script type="text/javascript">
+
+    var hash = document.location.hash;
+
+    if(hash){
+      $(hash).addClass('show active');
+      $(hash+'-tab').addClass('active');
+    }else{
+      $('#Amenities').addClass('show active');
+      $('#Amenities-tab').addClass('active');
+    }
+
+    </script>
+
 </body>
 
 </html>
