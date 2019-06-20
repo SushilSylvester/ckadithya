@@ -13213,7 +13213,7 @@ a.btn:not([href]):not([tabindex]).disabled {
 .heading-text h5,
 .heading-text h6 {
     position: relative;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 .heading-text h1 {
