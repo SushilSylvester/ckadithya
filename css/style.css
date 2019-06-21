@@ -4433,7 +4433,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: Nunito, Helvetica, Arial, sans-serif;
-    color: #565656
+    color: #fff;
 }
 
 .h1,
@@ -4449,7 +4449,7 @@ h4,
 h5,
 h6 {
     font-family: Poppins, Helvetica, Arial, sans-serif;
-    color: #1f1f1f;
+    color: #fff;
     margin: 0;
     letter-spacing: .5px
 }
@@ -4578,7 +4578,7 @@ p {
     text-transform: none;
     line-height: 1.6;
     letter-spacing: 0;
-    color: #777;
+    color: #fff;
     font-family: open sans, Helvetica, Arial, sans-serif
 }
 
@@ -7460,6 +7460,9 @@ h6.font-parisienne {
 
 .background-info {
     background-color: #53b0f8 !important
+}
+.background-darkblue{
+    background-color: #1a2335 !important
 }
 
 .background-warning {
@@ -14040,7 +14043,7 @@ i:not(.fa):not(.fab):not(.far):not(.fas) {
 }
 
 .icon-box.border .icon {
-    border: 3px solid #333;
+    border: 3px solid #fff;
     text-align: center;
     border-radius: 50%;
     background-color: transparent
@@ -14060,7 +14063,7 @@ i:not(.fa):not(.fab):not(.far):not(.fas) {
 
 .icon-box.border .icon i {
     background-color: transparent !important;
-    color: #333
+    color: #fff
 }
 
 .icon-box.border.small .icon {
@@ -15947,7 +15950,7 @@ select.rounded {
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 4px;
-    color: #444
+    color: #fff;
 }
 
 .form-inline button {
