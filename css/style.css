@@ -13949,6 +13949,7 @@ i:not(.fa):not(.fab):not(.far):not(.fas) {
 .icon-box.medium>h5 {
     margin: 0 13px 10px 57px;
     margin-top:14px;
+    margin-bottom: 20px;
 }
 
 .icon-box.medium>p {
