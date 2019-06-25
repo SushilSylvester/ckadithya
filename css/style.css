@@ -102,7 +102,10 @@ section {
 
 #page-title .page-title {
     text-align: center;
-    padding: 0
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+   
 }
 
 #page-title .page-title>h1 {
@@ -111,13 +114,13 @@ section {
     line-height: 56px;
     font-weight: 400;
     margin-bottom: 10px;
-    background: rgba(0,0,0,0.5);
 }
 
 #page-title .page-title>span {
     font-weight: 400;
     font-size: 14px
 }
+
 
 #page-title .breadcrumb {
     text-align: center;
@@ -5027,7 +5030,7 @@ h6.font-parisienne {
     height: 100%;
     z-index: -1;
     top: 0;
-    left: 0
+    left: 0;
 }
 
 .yt-bg-player .inlinePlayButton,
@@ -9383,7 +9386,7 @@ body.breakpoint-sm .col-3 .flickr-widget img .widget-instagram img {
 }
 
 .background-overlay:before {
-    background: url(../images/overlay-pattern/overlay-pattern-1.png);
+    background: rgba(0,0,0,.8);
     position: absolute;
     top: 0;
     right: 0;
