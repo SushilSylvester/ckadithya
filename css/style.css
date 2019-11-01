@@ -9427,6 +9427,9 @@ body.breakpoint-sm .col-3 .flickr-widget img .widget-instagram img {
     z-index: 0;
     min-height: 2000px
 }
+.bgover{
+    background: rgba(0,0,0, 1.5);
+}
 
 .background-overlay-light:before {
     position: absolute;
